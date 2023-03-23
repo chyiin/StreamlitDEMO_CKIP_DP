@@ -1,0 +1,12 @@
+__pycache__/
+demo_model/
+.streamlit/
+tagger/data/
+venv/
+XLNet_encoder.py
+XLNet_semantic.py
+BERT_encoder.py
+BERT_semantic.py
+ckip_logo.png
+co_model.py
+test.py
