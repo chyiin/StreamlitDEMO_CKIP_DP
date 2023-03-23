@@ -23,7 +23,7 @@ source venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
 
-python3 server.py --port 5555
+python3 server.py --port 3333
 ```
 
 # Run demo

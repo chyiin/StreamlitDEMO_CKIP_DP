@@ -116,7 +116,7 @@ class chinese_parser():
     def output(self, input_text):
 
         ws_sent = self.conn.eval(f'ws(["{input_text}"])')[0]
-        st2_sent = ['root'] + ws_sent
+        st2_sent = ['root'] + list(ws_sent)
         t2s_sent = ['root'] + [t2s.convert(word) for word in ws_sent]
         parse_input = ['root'] + list(ws_sent)
         sentence_index = [(i, st2_sent[i]) for i in range(len(st2_sent))]
